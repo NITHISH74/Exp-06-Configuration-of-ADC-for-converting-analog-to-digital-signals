@@ -1,12 +1,16 @@
 # Exp-06-Configuration-of-ADC-for-converting-analog-to-digital-signals:
 
 Name :	NITHISHWAR S
+
+
 Roll no: 212221230071
-Date of experiment : 27/10/2022
+
+
+Date of Experiment : 27/10/2022
   
   
 ## Aim: 
-To configure internal ADC for   LPC2148 ARM 7 and write a code for displaying the values varying from 0v to 3.3v to its equivalent digital values.
+To configure internal ADC for LPC2148 ARM 7 and write a code for displaying the values varying from 0v to 3.3v to its equivalent digital values.
 ## Components required: 
 Proteus ISIS professional suite, Kiel μ vision 5 Development environment.
 
@@ -14,7 +18,7 @@ Proteus ISIS professional suite, Kiel μ vision 5 Development environment.
 #### Figure-01 ADC pins in LPC2148 ARM 7 controller 
  ![image](https://user-images.githubusercontent.com/36288975/198947663-2d75f694-880a-4bc0-be67-8c2d4125fdb6.png)
 
- ## Theory 
+ ## Theory: 
 Analog to Digital Converter (ADC) is used to convert analog signal into digital form. LPC2148 has two inbuilt 10-bit ADC i.e. ADC0 & ADC1.
 •	ADC0 has 6 channels &ADC1 has 8 channels.
 •	Hence, we can connect 6 distinct types of input analog signals to ADC0 and 8 distinct types of input analog signals to ADC1.
@@ -31,7 +35,7 @@ These are the power and ground pins for ADC. These should be same as VDD & VSS.
 Let’s see the ADC registers which are used to control and monitors the ADC operation.
 Here, we will see ADC0 registers and their configurations. ADC1 has similar registers and can be configured in a similar manner.
  
-## ADC0 Registers 
+## ADC0 Registers:
 1.  AD0CR (ADC0 Control Register)
 •	AD0CR is a 32-bit register.
 •	This register must be written to select the operating mode before A/D conversion can occur.
@@ -219,13 +223,24 @@ int main()
 
 ## Output screen shots :
 ### Before Simulation :
+![0](https://user-images.githubusercontent.com/94164665/199777479-32253c40-ad5c-4be3-8829-f0c3c0063111.jpg)
+
 ### After Simulation at 40%:
+![12](https://user-images.githubusercontent.com/94164665/199777505-d3d05966-11e6-4618-a4cc-b0fdaf2b4669.jpg)
+
 ### After Simulation at 54%:
+![11](https://user-images.githubusercontent.com/94164665/199777497-d8755a9c-1c51-4b85-a1e6-24654e076151.jpg)
+
 ### After Simulation at 87%:
+![13](https://user-images.githubusercontent.com/94164665/199777533-78d4f36d-ba79-4aa2-97bb-809b8c6461c3.jpg)
+
 ### Circuit Diagram Layout:
+![14](https://user-images.githubusercontent.com/94164665/199777551-8229c1a3-30ea-4b79-b9ff-498b6468b11f.jpg)
 
 
 ## Tabulations and graph:
+![15](https://user-images.githubusercontent.com/94164665/199777666-2d93eaa1-bbe4-4ece-9eaa-888fdbaf2eed.jpg)
+
 
 
  ![image](https://user-images.githubusercontent.com/36288975/198947184-dbccf4b1-10a1-4090-a670-93526ed6e597.png)
