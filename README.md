@@ -186,7 +186,7 @@ ADxDRy. E.g. AD0DR1 contains ADC result of channel 1 of ADC0.
  ![image](https://user-images.githubusercontent.com/36288975/198947241-e5190f5c-0a23-4026-ae2c-722c43e51e6c.png)
 
 
-## Kiel - Program 
+## Kiel - Program:
 ```
 #include <lpc214x.h>
 #include "LCD.h"
