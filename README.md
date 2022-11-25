@@ -1,13 +1,4 @@
-# Exp-06-Configuration-of-ADC-for-converting-analog-to-digital-signals:
-
-Name :	NITHISHWAR S
-
-
-Roll no: 212221230071
-
-
-Date of Experiment : 27/10/2022
-  
+# Exp-06-Configuration-of-ADC-for-converting-analog-to-digital-signals:  
   
 ## Aim: 
 To configure internal ADC for LPC2148 ARM 7 and write a code for displaying the values varying from 0v to 3.3v to its equivalent digital values.
@@ -156,13 +147,10 @@ This bit is 1 when any of the individual A/D channel DONE flags is asserted and 
 6.  AD0DR0-AD0DR7 (ADC0 Data Registers)
 •	These are 32-bit registers.
 •	They hold the result when A/D conversion is completed.
-•	They also include flags that indicate when a conversion has been completed and when a conversion overrun has occurred.
 
 ####   Figure-07 AD0 Data Registers Structure
 
 ![image](https://user-images.githubusercontent.com/36288975/198947370-c2a27bb7-d2f7-47eb-8184-1bdeae95511d.png)
-
-
 •	Bit 5:0 – RESERVED
 •	Bits 15:6 – RESULT
 When DONE bit is set to 1, this field contains 10-bit ADC result that has a value in the range of 0 (less than or equal to VSSA) to 1023 (greater than or equal to VREF).
